@@ -1,0 +1,39 @@
+/* http://colorschemedesigner.com/#3x61Tw0w0w0w0 */
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  margin: 1em 3em;
+  color: #34495E;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #0B61A4;
+}
+a {
+  text-decoration: none;
+  color: #00AF64;
+}
+a:hover {
+  color: #007241;
+}
+
+.splash {
+  width: 70%;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.splash h1 {
+  margin-bottom: 0;
+}
+
+.highlight pre {
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #eee;
+}
