@@ -50,3 +50,8 @@ table.docinfo th {
   vertical-align: top;
   padding-right: 1em;
 }
+
+/** Other */
+.splash h1 span.fkin {
+  font-size: 1.2em;
+}

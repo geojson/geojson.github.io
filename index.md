@@ -3,7 +3,7 @@ layout: home
 title: GeoJSON
 ---
 
-# GeoJSON
+# <span class="fkin">G</span>eo<span class="fkin">J</span>SON
 
 GeoJSON is a format for encoding a variety of geographic data structures.
 
