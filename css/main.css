@@ -8,9 +8,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 3em;
   font-weight: 800;
-  text-transform: uppercase;
   color: #0B61A4;
 }
 a {
@@ -28,6 +26,8 @@ a:hover {
 }
 
 .splash h1 {
+  font-size: 3em;
+  text-transform: uppercase;
   margin-bottom: 0;
 }
 
@@ -36,4 +36,16 @@ a:hover {
   border: 1px solid #ddd;
   border-radius: 5px;
   background: #eee;
+}
+
+/**
+ * Spec style
+ */
+table.docinfo {
+  font-size: smaller;
+}
+table.docinfo th {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 1em;
 }

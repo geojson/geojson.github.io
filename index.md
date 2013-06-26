@@ -28,5 +28,5 @@ are `Feature` objects.  And lists of features are represented by a
 
 ## Learn More
 
-See the [full specification](http://geojson.org/geojson-spec.html) for more
+See the [full specification](geojson-spec.html) for more
 detail.
