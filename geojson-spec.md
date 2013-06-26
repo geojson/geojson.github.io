@@ -37,14 +37,12 @@ title: GeoJSON Specification
     <td>
       Copyright &copy; 2008 by the Authors. This work is licensed under a
       <a href="http://creativecommons.org/licenses/by/3.0/us/">
-        Creative Commons Attribution 3.0 United States License
-      </a>.
+        Creative Commons Attribution 3.0 United States License</a>.
     </td>
   </tr>
 </table>
 
 **Contents**
-
 
 * [1\. Introduction](#introduction)
   * [1\.1\. Examples](#examples)

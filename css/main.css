@@ -2,7 +2,7 @@
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 1.2em;
+  font-size: 115%;
   margin: 1em 3em;
   color: #34495E;
 }
@@ -32,6 +32,7 @@ a:hover {
 }
 
 .highlight pre {
+  font-size: 95%;
   padding: 0.8em;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -42,7 +43,7 @@ a:hover {
  * Spec style
  */
 table.docinfo {
-  font-size: smaller;
+  font-size: 95%;
 }
 table.docinfo th {
   text-align: right;
