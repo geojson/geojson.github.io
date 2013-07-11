@@ -1,10 +1,45 @@
 ---
-layout: default
-title: GeoJSON Specification
+layout:  nav
+title:   GeoJSON Specification
 ---
+<!-- NAV -->
+<nav id="nav">
+### Contents
+
+* [1\. Introduction](#introduction)
+  * [1\.1\. Examples](#examples)
+  * [1\.2\. Definitions](#definitions)
+* [2\. GeoJSON Objects](#geojson-objects)
+  * [2\.1\. Geometry Objects](#geometry-objects)
+    * [2\.1\.1\. Positions](#positions)
+    * [2\.1\.2\. Point](#point)
+    * [2\.1\.3\. MultiPoint](#multipoint)
+    * [2\.1\.4\. LineString](#linestring)
+    * [2\.1\.5\. MultiLineString](#multilinestring)
+    * [2\.1\.6\. Polygon](#polygon)
+    * [2\.1\.7\. MultiPolygon](#multipolygon)
+    * [2\.1\.8\. Geometry Collection](#geometry-collection)
+  * [2\.2\. Feature Objects](#feature-objects)
+  * [2\.3\. Feature Collection Objects](#feature-collection-objects)
+* [3\. Coordinate Reference System Objects](#coordinate-reference-system-objects)
+  * [3\.1\. Named CRS](#named-crs)
+  * [3\.2\. Linked CRS](#linked-crs)
+    * [3\.2\.1\. Link Objects](#link-objects)
+* [4\. Bounding Boxes](#bounding-boxes)
+* [Appendix A\. Geometry Examples](#appendix-a-geometry-examples)
+  * [Point](#id2)
+  * [LineString](#id3)
+  * [Polygon](#id4)
+  * [MultiPoint](#id5)
+  * [MultiLineString](#id6)
+  * [MultiPolygon](#id7)
+  * [GeometryCollection](#geometrycollection)
+* [Appendix B\. Contributors](#appendix-b-contributors)
+</nav>
 
 # The GeoJSON Format Specification
-
+  
+<!-- Document Info -->
 <table class="docinfo">
   <tr>
     <th>Authors</th>
@@ -41,39 +76,6 @@ title: GeoJSON Specification
     </td>
   </tr>
 </table>
-
-**Contents**
-
-* [1\. Introduction](#introduction)
-  * [1\.1\. Examples](#examples)
-  * [1\.2\. Definitions](#definitions)
-* [2\. GeoJSON Objects](#geojson-objects)
-  * [2\.1\. Geometry Objects](#geometry-objects)
-    * [2\.1\.1\. Positions](#positions)
-    * [2\.1\.2\. Point](#point)
-    * [2\.1\.3\. MultiPoint](#multipoint)
-    * [2\.1\.4\. LineString](#linestring)
-    * [2\.1\.5\. MultiLineString](#multilinestring)
-    * [2\.1\.6\. Polygon](#polygon)
-    * [2\.1\.7\. MultiPolygon](#multipolygon)
-    * [2\.1\.8\. Geometry Collection](#geometry-collection)
-  * [2\.2\. Feature Objects](#feature-objects)
-  * [2\.3\. Feature Collection Objects](#feature-collection-objects)
-* [3\. Coordinate Reference System Objects](#coordinate-reference-system-objects)
-  * [3\.1\. Named CRS](#named-crs)
-  * [3\.2\. Linked CRS](#linked-crs)
-    * [3\.2\.1\. Link Objects](#link-objects)
-* [4\. Bounding Boxes](#bounding-boxes)
-* [Appendix A\. Geometry Examples](#appendix-a-geometry-examples)
-  * [Point](#id2)
-  * [LineString](#id3)
-  * [Polygon](#id4)
-  * [MultiPoint](#id5)
-  * [MultiLineString](#id6)
-  * [MultiPolygon](#id7)
-  * [GeometryCollection](#geometrycollection)
-* [Appendix B\. Contributors](#appendix-b-contributors)
-
 
 ## <a id="introduction" href="#introduction">1. Introduction</a>
 
