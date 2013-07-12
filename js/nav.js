@@ -10,8 +10,7 @@
  * @copyright	Copyright (c) 2013 +
  */
 (function($){
-	// Add a scroll event
-	$(window).scroll(function(){
+	function highlight(){
 		var id;
 		var visible	= [];
 		var lastID	= false;
@@ -48,6 +47,11 @@
 		$(visible).each(function(k,v){
 			$('#nav a[href="#'+v+'"]').addClass("active");
 		});
-	});
-	$(window).scroll();
+	}
+
+	// Add a scroll and resize listener
+	$(window).scroll(highlight).resize(highlight);
+
+	// Trigger the highlight on load
+	highlight();
 })(jQuery);
