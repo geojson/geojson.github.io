@@ -1,7 +1,6 @@
 ---
 layout: home
 title: GeoJSON-LD Vocabulary
-permalink: /vocab
 ---
 
 # GeoJSON-LD Vocabulary
