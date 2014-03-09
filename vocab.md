@@ -19,6 +19,14 @@ Below are linked data identifiers for the GeoJSON types.
 
 http://example.com/vocab/#FeatureCollection
 
+To explain to JSON-LD readers that a node is a GeoJSON FeatureCollection:
+
+```
+{ "type": "FeatureCollection",
+  "@type": http://example.com/vocab/#FeatureCollection,
+  "features": [ ... ] }
+```
+
 ### Feature
 
 http://example.com/vocab/#Feature
