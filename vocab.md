@@ -8,6 +8,9 @@ title: GeoJSON-LD Vocabulary
 See [https://github.com/geojson/geojson-ld](https://github.com/geojson/geojson-ld)
 for vocabulary developments.
 
+This document refers often to the [JSON-LD 1.0](http://www.w3.org/TR/json-ld/) W3C
+Recommendation.
+
 The example.com domain and example.com/vocab/# URIs are used deliberately to 
 dissuade you from publishing GeoJSON-LD until we publish a final vocabulary.
 
@@ -19,11 +22,12 @@ Below are linked data identifiers for the GeoJSON types.
 
 http://example.com/vocab/#FeatureCollection
 
-To explain to JSON-LD readers that a node is a GeoJSON FeatureCollection:
+To explain to JSON-LD readers that a node is a GeoJSON FeatureCollection, assign
+this URI to the node's [``@type`` item](http://www.w3.org/TR/json-ld/#specifying-the-type).
 
 ```
 { "type": "FeatureCollection",
-  "@type": http://example.com/vocab/#FeatureCollection,
+  "@type": "http://example.com/vocab/#FeatureCollection",
   "features": [ ... ] }
 ```
 
