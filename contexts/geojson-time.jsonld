@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "Feature": "http://example.com/vocab#Feature",
+    "FeatureCollection": "http://example.com/vocab#FeatureCollection",
+    "GeometryCollection": "http://example.com/vocab#GeometryCollection",
+    "Instant": "http://www.w3.org/2006/time#Instant",
+    "Interval": "http://www.w3.org/2006/time#Interval",
+    "LineString": "http://example.com/vocab#LineString",
+    "MultiLineString": "http://example.com/vocab#MultiLineString",
+    "MultiPoint": "http://example.com/vocab#MultiPoint",
+    "MultiPolygon": "http://example.com/vocab#MultiPolygon",
+    "Point": "http://example.com/vocab#Point",
+    "Polygon": "http://example.com/vocab#Polygon",
+    "bbox": {
+      "@container": "@list",
+      "@id": "http://example.com/vocab#bbox"
+    },
+    "coordinates": "http://example.com/vocab#coordinates",
+    "datetime": "http://www.w3.org/2006/time#inXSDDateTime",
+    "description": "http://purl.org/dc/terms/description",
+    "earliest": "http://example.com/vocab#earliest",
+    "features": {
+      "@container": "@set",
+      "@id": "http://example.com/vocab#coordinates"
+    },
+    "geometry": "http://example.com/vocab#geometry",
+    "id": "http://example.com/vocab#id",
+    "latest": "http://example.com/vocab#latest",
+    "properties": "http://example.com/vocab#properties",
+    "start": "http://www.w3.org/2006/time#hasBeginning",
+    "stop": "http://www.w3.org/2006/time#hasEnding",
+    "title": "http://purl.org/dc/terms/title",
+    "type": "http://example.com/vocab#type"
+    "when": "http://example.com/vocab#when",
+  }
+}
