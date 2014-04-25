@@ -1,9 +1,9 @@
 ---
 layout: home
-title: GeoJSON-LD Vocabulary
+title: Proposed GeoJSON-LD Vocabulary
 ---
 
-# GeoJSON-LD Vocabulary Strawman
+# Proposed GeoJSON-LD Vocabulary
 
 See [https://github.com/geojson/geojson-ld](https://github.com/geojson/geojson-ld)
 for vocabulary developments.
