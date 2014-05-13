@@ -20,7 +20,7 @@ Below are linked data identifiers for the GeoJSON types.
 
 ### FeatureCollection
 
-http://example.com/vocab#FeatureCollection
+*http://example.com/vocab#FeatureCollection*
 
 To explain to JSON-LD readers that a node is a GeoJSON FeatureCollection, assign
 this URI to the node's [``@type`` item](http://www.w3.org/TR/json-ld/#specifying-the-type).
@@ -33,35 +33,35 @@ this URI to the node's [``@type`` item](http://www.w3.org/TR/json-ld/#specifying
 
 ### Feature
 
-http://example.com/vocab#Feature
+*http://example.com/vocab#Feature*
 
 ### Point
 
-http://example.com/vocab#Point
+*http://example.com/vocab#Point*
 
 ### LineString
 
-http://example.com/vocab#LineString
+*http://example.com/vocab#LineString*
 
 ### Polygon
 
-http://example.com/vocab#Polygon
+*http://example.com/vocab#Polygon*
 
 ### MultiPoint
 
-http://example.com/vocab#MultiPoint
+*http://example.com/vocab#MultiPoint*
 
 ### MultiLineString
 
-http://example.com/vocab#MultiLineString
+*http://example.com/vocab#MultiLineString*
 
 ### MultiPolygon
 
-http://example.com/vocab#MultiPolygon
+*http://example.com/vocab#MultiPolygon*
 
 ### GeometryCollection
 
-http://example.com/vocab#GeometryCollection
+*http://example.com/vocab#GeometryCollection*
 
 ## Properties
 
@@ -73,7 +73,7 @@ Below are linked data identifiers for the properties of GeoJSON types.
 
 ### coordinates
 
-http://example.com/vocab#coordinates
+*http://example.com/vocab#coordinates*
 
 ### datetime
 
@@ -89,11 +89,11 @@ http://example.com/vocab#coordinates
 
 ### features
 
-http://example.com/vocab#features
+*http://example.com/vocab#features*
 
 ### geometry
 
-http://example.com/vocab#geometry
+*http://example.com/vocab#geometry*
 
 ### id
 
@@ -105,7 +105,7 @@ http://example.com/vocab#geometry
 
 ### properties
 
-http://example.com/vocab#properties
+*http://example.com/vocab#properties*
 
 ### start
 
