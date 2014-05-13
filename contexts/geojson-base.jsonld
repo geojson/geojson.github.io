@@ -14,7 +14,6 @@
       "@id": "http://example.com/vocab#bbox"
     },
     "coordinates": "http://example.com/vocab#coordinates",
-    "description": "http://purl.org/dc/terms/description",
     "features": {
       "@container": "@set",
       "@id": "http://example.com/vocab#features"
@@ -22,7 +21,6 @@
     "geometry": "http://example.com/vocab#geometry",
     "id": "http://example.com/vocab#id",
     "properties": "http://example.com/vocab#properties",
-    "title": "http://purl.org/dc/terms/title",
     "type": "http://example.com/vocab#type"
   }
 }
