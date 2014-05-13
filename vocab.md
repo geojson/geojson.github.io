@@ -69,24 +69,60 @@ Below are linked data identifiers for the properties of GeoJSON types.
 
 ### bbox
 
-http://example.com/vocab#bbox
+*http://example.com/vocab#bbox*
 
 ### coordinates
 
 http://example.com/vocab#coordinates
 
-### geometry
+### datetime
 
-http://example.com/vocab#geometry
+*http://www.w3.org/2006/time#inXSDDateTime*
+
+### description
+
+*http://purl.org/dc/terms/description*
+
+### earliest
+
+*http://example.com/vocab#earliest*
 
 ### features
 
 http://example.com/vocab#features
 
+### geometry
+
+http://example.com/vocab#geometry
+
+### id
+
+*http://example.com/vocab#id*
+
+### latest
+
+*http://example.com/vocab#latest*
+
 ### properties
 
 http://example.com/vocab#properties
 
+### start
 
+*http://www.w3.org/2006/time#hasBeginning*
 
+### stop
 
+*http://www.w3.org/2006/time#hasEnding*
+
+### title
+
+*http://purl.org/dc/terms/title*
+
+### type
+
+*http://example.com/vocab#type*
+
+### when
+
+*http://example.com/vocab#when*
