@@ -20,7 +20,7 @@ dissuade you from using the vocabulary terms before the work is finished.
 Below are linked data identifiers for the core GeoJSON types found in the [GeoJSON
 1.0 Specification](geojson-spec.md).
 
-### FeatureCollection
+### <a name="FeatureCollection">FeatureCollection</a>
 
 *http://example.com/vocab#FeatureCollection*
 
@@ -32,43 +32,43 @@ Description: See [GeoJSON Section 2.3](geojson-spec.html#feature-collection-obje
 
 Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects).
 
-### Point
+### <a name="Point">Point</a>
 
 *http://example.com/vocab#Point*
 
 Description: See [GeoJSON Section 2.1.2](geojson-spec.html#point).
 
-### LineString
+### <a name="LineString">LineString</a>
 
 *http://example.com/vocab#LineString*
 
 Description: See [GeoJSON Section 2.1.4](geojson-spec.html#linestring).
 
-### Polygon
+### <a name="Polygon">Polygon</a>
 
 *http://example.com/vocab#Polygon*
 
 Description: See [GeoJSON Section 2.1.6](geojson-spec.html#polygon).
 
-### MultiPoint
+### <a name="MultiPoint">MultiPoint</a>
 
 *http://example.com/vocab#MultiPoint*
 
 Description: See [GeoJSON Section 2.1.3](geojson-spec.html#multipoint).
 
-### MultiLineString
+### <a name="MultiLineString">MultiLineString</a>
 
 *http://example.com/vocab#MultiLineString*
 
 Description: See [GeoJSON Section 2.1.5](geojson-spec.html#multilinestring).
 
-### MultiPolygon
+### <a name="MultiPolygon">MultiPolygon</a>
 
 *http://example.com/vocab#MultiPolygon*
 
 Description: See [GeoJSON Section 2.1.7](geojson-spec.html#multipolygon).
 
-### GeometryCollection
+### <a name="GeometryCollection">GeometryCollection</a>
 
 *http://example.com/vocab#GeometryCollection*
 
@@ -80,31 +80,31 @@ Description: See [GeoJSON Section 2.1.8](geojson-spec.html#geometry-collection).
 Below are linked data identifiers for the core GeoJSON properties found in the
 [GeoJSON 1.0 Specification](geojson-spec.html).
 
-### bbox
+### <a name="bbox">bbox</a>
 
 *http://example.com/vocab#bbox*
 
 Description: See [GeoJSON Section 4](geojson-spec.html#bounding-boxes).
 
-### coordinates
+### <a name="coordinates">coordinates</a>
 
 *http://example.com/vocab#coordinates*
 
 Description: See [GeoJSON Section 2.1.1](geojson-spec.html#positions).
 
-### features
+### <a name="features">features</a>
 
 *http://example.com/vocab#features*
 
 Description: See [GeoJSON Section 2.3](geojson-spec.html#feature-collection-objects).
 
-### geometry
+### <a name="geometry">geometry</a>
 
 *http://example.com/vocab#geometry*
 
 Description: See [GeoJSON Section 2.1](geojson-spec.html#geometry-objects).
 
-### id
+### <a name="id">id</a>
 
 *http://example.com/vocab#id*
 
@@ -115,7 +115,7 @@ keyword](http://www.w3.org/TR/json-ld/#node-identifiers). The former identifies
 a **Feature** within a **FeatureCollection**, the latter uniquely identifies
 a JSON-LD [node](http://www.w3.org/TR/json-ld/#dfn-node).
 
-### properties
+### <a name="properties">properties</a>
 
 *http://example.com/vocab#properties*
 
@@ -123,7 +123,7 @@ Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects). These
 are properties of a **Feature** that are bounded by its spatial and temporal
 extents.
 
-### type
+### <a name="type">type</a>
 
 *http://example.com/vocab#type*
 
@@ -167,11 +167,12 @@ indexed) using the ISO 8601 (or equivalently, [RFC
 would be "0-12-31". No time interval is implied by an imprecise datetime value
 such as "1000". The domain of this property is [**Instant**](#Instant).
 
-### description
+### <a name="description">description</a>
 
 *http://purl.org/dc/terms/description*
 
-Description: TODO
+Description: Summary text or content. [**Feature**](#Feature) descriptions are
+useful in popups.
 
 ### earliest
 
@@ -199,11 +200,11 @@ of a time interval.  The domain of this property is [**Interval**](#Interval).
 Description: A moment (as in [**datetime**](#datetime) above) at the end of
 a time interval.  The domain of this property is [**Interval**](#Interval).
 
-### title
+### <a name="title">title</a>
 
 *http://purl.org/dc/terms/title*
 
-Description: TODO
+Description: [**Feature**](#Feature) titles are useful in popups.
 
 ### <a name="when">when</a>
 
