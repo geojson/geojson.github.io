@@ -157,6 +157,16 @@ intervals may have one or the other.
 
 ## Extension Properties
 
+### <a name="circa">circa</a>
+
+*http://example.com/vocab#circa*
+
+Description: The temporal bounding "box" of a GeoJSON object. Its domain is
+[**FeatureCollection**](#FeatureCollection) and [**Feature**](#Feature). Its
+range is [**Interval**](#Interval) (see above). Publishers are free to pad the
+interval of **circa**; it does not have to exactly match the extent of 
+[**when**](#when).
+
 ### <a name="datetime">datetime</a>
 
 *http://www.w3.org/2006/time#inXSDDateTime*
@@ -173,18 +183,6 @@ such as "1000". The domain of this property is [**Instant**](#Instant).
 
 Description: Summary text or content. [**Feature**](#Feature) descriptions are
 useful in popups.
-
-### earliest
-
-*http://example.com/vocab#earliest*
-
-Description: TODO
-
-### latest
-
-*http://example.com/vocab#latest*
-
-Description: TODO
 
 ### <a name="start">start</a>
 
