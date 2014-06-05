@@ -129,48 +129,8 @@ Description: See [GeoJSON Section 2](geojson-spec.html#geojson-objects).
 In the base GeoJSON-LD context, [http://geojson.org/contexts/geojson-base.jsonld](http://geojson.org/contexts/geojson-base.jsonld), **type** is declared to be an alias for
 `rdf:type`.
 
-## Extension Types
-
-Below are identifiers and descriptions of types not in the core GeoJSON
-specification.
-
-### <a name="Instant">Instant</a>
-
-*http://www.w3.org/2006/time#Instant*
-
-Description: Denotes a temporal entity with zero length, having only
-a [**datetime**](#datetime) property.
-
-### <a name="Interval">Interval</a>
-
-*http://www.w3.org/2006/time#Interval*
-
-Description: Denotes a temporal entity with non-zero length. Closed intervals
-have [**start**](#start) and [**stop**](#stop) properties, while open ended
-intervals may have one or the other.
-
 
 ## Extension Properties
-
-### <a name="circa">circa</a>
-
-*http://example.com/vocab#circa*
-
-Description: The temporal bounding "box" of a GeoJSON object. Its domain is
-[**FeatureCollection**](#FeatureCollection) and [**Feature**](#Feature). Its
-range is [**Interval**](#Interval) (see above). Publishers are free to pad the
-interval of **circa**; it does not have to exactly match the extent of 
-[**when**](#when).
-
-### <a name="datetime">datetime</a>
-
-*http://www.w3.org/2006/time#inXSDDateTime*
-
-Description: A moment in a common era calendar using astronomical years (0
-indexed) using the ISO 8601 (or equivalently, [RFC
-3339](http://www.ietf.org/rfc/rfc3339.txt)) format. The day before "1-01-01"
-would be "0-12-31". No time interval is implied by an imprecise datetime value
-such as "1000". The domain of this property is [**Instant**](#Instant).
 
 ### <a name="description">description</a>
 
@@ -179,31 +139,9 @@ such as "1000". The domain of this property is [**Instant**](#Instant).
 Description: Summary text or content. [**Feature**](#Feature) descriptions are
 useful in popups.
 
-### <a name="start">start</a>
-
-*http://www.w3.org/2006/time#hasBeginning*
-
-Description: A moment (as in [**datetime**](#datetime) above) at the beginning
-of a time interval.  The domain of this property is [**Interval**](#Interval).
-
-### <a name="stop">stop</a>
-
-*http://www.w3.org/2006/time#hasEnding*
-
-Description: A moment (as in [**datetime**](#datetime) above) at the end of
-a time interval.  The domain of this property is [**Interval**](#Interval).
-
 ### <a name="title">title</a>
 
 *http://purl.org/dc/terms/title*
 
 Description: [**Feature**](#Feature) titles are useful in popups.
-
-### <a name="when">when</a>
-
-*http://example.com/vocab#when*
-
-Description: The temporal extent of a Feature. Its domain is
-[**Feature**](#Feature). Its range is [**Instant**](#Instant) or
-[**Interval**](#Interval) (see above).
 
