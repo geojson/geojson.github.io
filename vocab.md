@@ -110,10 +110,7 @@ Description: See [GeoJSON Section 2.1](geojson-spec.html#geometry-objects).
 
 Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects).
 
-GeoJSON's **id** property is different from JSON-LD's [**@id**
-keyword](http://www.w3.org/TR/json-ld/#node-identifiers). The former identifies
-a **Feature** within a **FeatureCollection**, the latter uniquely identifies
-a JSON-LD [node](http://www.w3.org/TR/json-ld/#dfn-node).
+In the base GeoJSON-LD context, [http://geojson.org/contexts/geojson-base.jsonld](http://geojson.org/contexts/geojson-base.jsonld), **id** is declared to be an alias for the JSON-LD [**@id** keyword](http://www.w3.org/TR/json-ld/#node-identifiers).
 
 ### <a name="properties">properties</a>
 
@@ -129,10 +126,8 @@ extents.
 
 Description: See [GeoJSON Section 2](geojson-spec.html#geojson-objects).
 
-GeoJSON's **type** property is analogous to, but more limited than, JSON-LD's
-[**@type** keyword](http://www.w3.org/TR/json-ld/#specifying-the-type). JSON-LD
-processors *may*, when encountering GeoJSON objects without a **@type**, choose
-to interpret the GeoJSON **type** as a JSON-LD **@type**.
+In the base GeoJSON-LD context, [http://geojson.org/contexts/geojson-base.jsonld](http://geojson.org/contexts/geojson-base.jsonld), **type** is declared to be an alias for
+`rdf:type`.
 
 ## Extension Types
 
