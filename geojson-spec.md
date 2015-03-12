@@ -239,7 +239,7 @@ A GeoJSON object with type `"GeometryCollection"` is a geometry object which
 represents a collection of geometry objects.
 
 A geometry collection must have a member with the name `"geometries"`. The value
-corresponding to `"geometries" `is an array. Each element in this array is a
+corresponding to `"geometries"` is an array. Each element in this array is a
 GeoJSON geometry object.
 
 ### <a id="feature-objects" href="#feature-objects">2.2. Feature Objects</a>
