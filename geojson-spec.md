@@ -138,7 +138,7 @@ A GeoJSON feature collection:
 ### <a id="definitions" href="#definitions">1.2. Definitions</a>
 
 * JavaScript Object Notation (JSON), and the terms object, name, value, array,
-  and number, are defined in [IETF RTC 4627](http://www.ietf.org/rfc/rfc4627.txt).
+  and number, are defined in [IETF RFC 4627](http://www.ietf.org/rfc/rfc4627.txt).
 
 * The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
   "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
