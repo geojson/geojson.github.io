@@ -30,3 +30,12 @@ are `Feature` objects.  And lists of features are represented by a
 
 See the [full specification](geojson-spec.html) for more
 detail.
+
+## Developments
+
+The GeoJSON authors are writing an Internet-Draft that updates GeoJSON,
+[draft-butler-geojson](https://tools.ietf.org/html/draft-butler-geojson-05),
+and are working on the charter for a working group that would standardize
+the format. Please see 
+[https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson)
+for details on each of these efforts.
