@@ -28,14 +28,16 @@ are `Feature` objects.  And lists of features are represented by a
 
 ## Learn More
 
-See the [full specification](geojson-spec.html) for more
-detail.
+See the [full specification](geojson-spec.html) for more detail.
 
-## Developments
+See also
+[https://datatracker.ietf.org/doc/draft-butler-geojson/](https://datatracker.ietf.org/doc/draft-butler-geojson/),
+an Internet-Draft updating and clarifying the original specification.
 
-The GeoJSON authors are writing an Internet-Draft that updates GeoJSON,
-[draft-butler-geojson](https://tools.ietf.org/html/draft-butler-geojson-05),
-and are working on the charter for a working group that would standardize
-the format. Please see 
-[https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson)
-for details on each of these efforts.
+## IETF Geographic JSON Working Group
+
+An IETF [Geographic JSON WG](https://datatracker.ietf.org/wg/geojson/charter/),
+geojson for short, has been
+[chartered](https://github.com/geojson/draft-geojson/issues?q=milestone%3Acharter)
+to standardize the format. The geojson work continues at
+[https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson).
