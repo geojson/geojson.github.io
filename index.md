@@ -36,8 +36,9 @@ an Internet-Draft updating and clarifying the original specification.
 
 ## IETF Geographic JSON Working Group
 
-An IETF [Geographic JSON WG](https://datatracker.ietf.org/wg/geojson/charter/),
-geojson for short, has been
-[chartered](https://github.com/geojson/draft-geojson/issues?q=milestone%3Acharter)
-to standardize the format. The geojson work continues at
+The Internet Engineering Task Force, in conjunction with the original
+specification authors, has formed the [Geographic JSON
+WG](https://datatracker.ietf.org/wg/geojson/charter/), geojson for short, to
+standardize the format. Work continues on GitHub at
 [https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson).
+
