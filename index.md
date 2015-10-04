@@ -35,6 +35,6 @@ an Internet-Draft updating and clarifying the original specification.
 
 The Internet Engineering Task Force, in conjunction with the original
 specification authors, has formed the [Geographic JSON
-WG](https://datatracker.ietf.org/wg/geojson/charter/), geojson for short, to
-standardize the format. Work continues on GitHub at
+WG](https://datatracker.ietf.org/wg/geojson/charter/) to standardize the
+format. Work continues on GitHub at
 [https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson).
