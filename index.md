@@ -28,7 +28,7 @@ contained by `FeatureCollection` objects.
 ## Learn More
 
 See the [full specification](geojson-spec.html) for more detail. See also
-[https://datatracker.ietf.org/doc/draft-butler-geojson/](https://datatracker.ietf.org/doc/draft-butler-geojson/),
+[https://datatracker.ietf.org/doc/draft-ietf-geojson/](https://datatracker.ietf.org/doc/draft-ietf-geojson/),
 an Internet-Draft updating and clarifying the original specification.
 
 ## IETF Geographic JSON Working Group
