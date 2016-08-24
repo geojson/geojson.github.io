@@ -75,6 +75,12 @@ title:   GeoJSON Specification
         Creative Commons Attribution 3.0 United States License</a>.
     </td>
   </tr>
+  <tr>
+    <th>Status</th>
+    <td>
+      Obsolete. Replaced by <a href="https://tools.ietf.org/html/rfc7946">RFC 7946</a>.
+    </td>
+  </tr>
 </table>
 
 ## <a id="introduction" href="#introduction">1. Introduction</a>
