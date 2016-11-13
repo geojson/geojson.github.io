@@ -24,55 +24,55 @@ Below are linked data identifiers for the core GeoJSON types found in the [GeoJS
 
 *http://example.com/vocab#FeatureCollection*
 
-Description: See [GeoJSON Section 2.3](geojson-spec.html#feature-collection-objects).
+Description: See [RFC 7946 Section 3.3](https://tools.ietf.org/html/rfc7946#section-3.3).
 
 ### <a name="Feature">Feature</a>
 
 *http://example.com/vocab#Feature*
 
-Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects).
+Description: See [RFC 7946 Section 3.2](https://tools.ietf.org/html/rfc7946#section-3.2).
 
 ### <a name="Point">Point</a>
 
 *http://example.com/vocab#Point*
 
-Description: See [GeoJSON Section 2.1.2](geojson-spec.html#point).
+Description: See [RFC 7946 Section 3.1.2](https://tools.ietf.org/html/rfc7946#section-3.1.2).
 
 ### <a name="LineString">LineString</a>
 
 *http://example.com/vocab#LineString*
 
-Description: See [GeoJSON Section 2.1.4](geojson-spec.html#linestring).
+Description: See [RFC 7946 Section 3.1.4](https://tools.ietf.org/html/rfc7946#section-3.1.4).
 
 ### <a name="Polygon">Polygon</a>
 
 *http://example.com/vocab#Polygon*
 
-Description: See [GeoJSON Section 2.1.6](geojson-spec.html#polygon).
+Description: See [RFC 7946 Section 3.1.6](https://tools.ietf.org/html/rfc7946#section-3.1.6).
 
 ### <a name="MultiPoint">MultiPoint</a>
 
 *http://example.com/vocab#MultiPoint*
 
-Description: See [GeoJSON Section 2.1.3](geojson-spec.html#multipoint).
+Description: See [RFC 7946 Section 3.1.3](https://tools.ietf.org/html/rfc7946#section-3.1.3).
 
 ### <a name="MultiLineString">MultiLineString</a>
 
 *http://example.com/vocab#MultiLineString*
 
-Description: See [GeoJSON Section 2.1.5](geojson-spec.html#multilinestring).
+Description: See [RFC 7946 Section 3.1.5](https://tools.ietf.org/html/rfc7946#section-3.1.5).
 
 ### <a name="MultiPolygon">MultiPolygon</a>
 
 *http://example.com/vocab#MultiPolygon*
 
-Description: See [GeoJSON Section 2.1.7](geojson-spec.html#multipolygon).
+Description: See [RFC 7946 Section 3.1.7](https://tools.ietf.org/html/rfc7946#section-3.1.7).
 
 ### <a name="GeometryCollection">GeometryCollection</a>
 
 *http://example.com/vocab#GeometryCollection*
 
-Description: See [GeoJSON Section 2.1.8](geojson-spec.html#geometry-collection).
+Description: See [RFC 7946 Section 3.1.8](https://tools.ietf.org/html/rfc7946#section-3.1.8).
 
 
 ## Core Properties
@@ -84,64 +84,47 @@ Below are linked data identifiers for the core GeoJSON properties found in the
 
 *http://example.com/vocab#bbox*
 
-Description: See [GeoJSON Section 4](geojson-spec.html#bounding-boxes).
+Description: See [RFC 7946 Section 5](https://tools.ietf.org/html/rfc7946#section-5).
 
 ### <a name="coordinates">coordinates</a>
 
 *http://example.com/vocab#coordinates*
 
-Description: See [GeoJSON Section 2.1.1](geojson-spec.html#positions).
+Description: See [RFC 7946 Section 3.1.1](https://tools.ietf.org/html/rfc7946#section-3.1.1).
 
 ### <a name="features">features</a>
 
 *http://example.com/vocab#features*
 
-Description: See [GeoJSON Section 2.3](geojson-spec.html#feature-collection-objects).
+Description: See [RFC 7946 Section 3.3](https://tools.ietf.org/html/rfc7946#section-3.3).
 
 ### <a name="geometry">geometry</a>
 
 *http://example.com/vocab#geometry*
 
-Description: See [GeoJSON Section 2.1](geojson-spec.html#geometry-objects).
+Description: See [RFC 7946 Section 3.2](https://tools.ietf.org/html/rfc7946#section-3.2).
 
 ### <a name="id">id</a>
 
 *http://example.com/vocab#id*
 
-Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects).
+Description: See [RFC 7946 Section 3.2](https://tools.ietf.org/html/rfc7946#section-3.2).
 
-In the base GeoJSON-LD context, [http://geojson.org/contexts/geojson-base.jsonld](http://geojson.org/contexts/geojson-base.jsonld), **id** is declared to be an alias for the JSON-LD [**@id** keyword](http://www.w3.org/TR/json-ld/#node-identifiers).
+In the base GeoJSON-LD context, [http://geojson.org/geojson-context.jsonld](http://geojson.org/geojson-context.jsonld), **id** is declared to be an alias for the JSON-LD [**@id** keyword](http://www.w3.org/TR/json-ld/#node-identifiers).
 
 ### <a name="properties">properties</a>
 
 *http://example.com/vocab#properties*
 
-Description: See [GeoJSON Section 2.2](geojson-spec.html#feature-objects). These
-are properties of a **Feature** that are bounded by its spatial and temporal
-extents.
+Description: See [RFC 7946 Section 3.2](https://tools.ietf.org/html/rfc7946#section-3.2).
+These are properties of a **Feature** that are bounded by its spatial and temporal extents.
 
 ### <a name="type">type</a>
 
 *http://example.com/vocab#type*
 
-Description: See [GeoJSON Section 2](geojson-spec.html#geojson-objects).
+Description: See [RFC 7946 Section 3]https://tools.ietf.org/html/rfc7946#section-3).
 
-In the base GeoJSON-LD context, [http://geojson.org/contexts/geojson-base.jsonld](http://geojson.org/contexts/geojson-base.jsonld), **type** is declared to be an alias for
-`rdf:type`.
-
-
-## Extension Properties
-
-### <a name="description">description</a>
-
-*http://purl.org/dc/terms/description*
-
-Description: Summary text or content. [**Feature**](#Feature) descriptions are
-useful in popups.
-
-### <a name="title">title</a>
-
-*http://purl.org/dc/terms/title*
-
-Description: [**Feature**](#Feature) titles are useful in popups.
-
+In the base GeoJSON-LD context,
+[http://geojson.org/geojson-context.jsonld](http://geojson.org/geojson-context.jsonld),
+**type** is declared to be an alias for `rdf:type`.
