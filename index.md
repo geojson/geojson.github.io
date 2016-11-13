@@ -25,16 +25,11 @@ GeoJSON supports the following geometry types: `Point`, `LineString`,
 objects with additional properties are `Feature` objects. Sets of features are
 contained by `FeatureCollection` objects.
 
-## Learn More
+## RFC 7946
 
-See the [full specification](geojson-spec.html) for more detail. See also
-[https://datatracker.ietf.org/doc/draft-butler-geojson/](https://datatracker.ietf.org/doc/draft-butler-geojson/),
-an Internet-Draft updating and clarifying the original specification.
-
-## IETF Geographic JSON Working Group
-
-The Internet Engineering Task Force, in conjunction with the original
-specification authors, has formed the [Geographic JSON
-WG](https://datatracker.ietf.org/wg/geojson/charter/) to standardize the
-format. Work continues on GitHub at
-[https://github.com/geojson/draft-geojson](https://github.com/geojson/draft-geojson).
+In 2015, the Internet Engineering Task Force (IETF), in conjunction with the
+original specification authors, formed a [GeoJSON
+WG](https://datatracker.ietf.org/wg/geojson/charter/) to standardize GeoJSON.
+[RFC 7946](https://tools.ietf.org/html/rfc7946) was published in August 2016
+and is the new standard specification of the GeoJSON format, replacing the
+[2008 GeoJSON specification](geojson-spec.html).
