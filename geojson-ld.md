@@ -1,7 +1,9 @@
-GeoJSON-LD
-==========
+---
+layout: home
+title: GeoJSON-LD
+---
 
-A vocabulary and JSON-LD context for GeoJSON
+# A vocabulary and JSON-LD context for GeoJSON
 
 The GeoJSON-LD project defines a base context for processing GeoJSON according
 to the [JSON-LD](https://www.w3.org/TR/json-ld/) processing model. When
