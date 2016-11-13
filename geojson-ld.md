@@ -14,8 +14,8 @@ a JSON-LD processor encounters a GeoJSON document with the
 may use the context defined here. JSON-LD implementations may add to the
 context defined here but MUST NOT override or change the meaning of its terms.
 
-The vocabulary is published at http://geojson.org/vocab# and the context is
-published at http://geojson.org/geojson-context.jsonld.
+The vocabulary is published at [http://geojson.org/vocab#](http://geojson.org/vocab#) and the context is
+published at [http://geojson.org/geojson-context.jsonld](http://geojson.org/geojson-context.jsonld).
 
 ## See Also
 
