@@ -84,5 +84,5 @@ the following compacted JSON-LD.
 
 ## See Also
 
-Activity Streams 2.0: https://www.w3.org/TR/activitystreams-core/, from which
+* [Activity Streams 2.0](https://www.w3.org/TR/activitystreams-core/), from which
 GeoJSON-LD gets the idea of a normative, default context.
