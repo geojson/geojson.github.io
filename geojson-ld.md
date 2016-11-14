@@ -5,6 +5,17 @@ title: GeoJSON-LD
 
 # GeoJSON-LD 1.0
 
+<dl>
+  <dt>Date</dt>
+  <dd>2016-10-14</dd>
+  <dt>Editor</dt>
+  <dd>Sean Gillies, Mapbox</dd>
+  <dt>Repository</dt>
+  <dd>https://github.com/geojson/geojson-ld</dd>
+</dl>
+
+## Abstract
+
 A vocabulary and JSON-LD context for GeoJSON
 
 GeoJSON-LD 1.0 defines a base context for processing GeoJSON according
@@ -12,10 +23,17 @@ to the [JSON-LD](https://www.w3.org/TR/json-ld/) processing model. When
 a JSON-LD processor encounters a GeoJSON document with the
 `application/geo+json` media type that does not contain a `@context` member, it
 may use the context defined here. JSON-LD implementations may add to the
-context defined here but MUST NOT override or change the meaning of its terms.
+context defined here but must not override or change the meaning of its terms.
 
-The vocabulary is published at [http://geojson.org/vocab#](http://geojson.org/vocab#) and the context is
-published at [http://geojson.org/geojson-context.jsonld](http://geojson.org/geojson-context.jsonld).
+## Vocabulary
+
+The GeoJSON-LD 1.0 vocabulary is published at
+[http://geojson.org/vocab#](http://geojson.org/vocab#).
+
+## Context
+
+The GeoJSON-LD 1.0 context is published at
+[http://geojson.org/geojson-context.jsonld](http://geojson.org/geojson-context.jsonld).
 
 ## Example
 
@@ -26,24 +44,8 @@ Pasting the following GeoJSON-LD document
   "@context": {
     "geojson": "http://geojson.org/vocab#",
     "Feature": "geojson:Feature",
-    "FeatureCollection": "geojson:FeatureCollection",
-    "GeometryCollection": "geojson:GeometryCollection",
-    "LineString": "geojson:LineString",
-    "MultiLineString": "geojson:MultiLineString",
-    "MultiPoint": "geojson:MultiPoint",
-    "MultiPolygon": "geojson:MultiPolygon",
     "Point": "geojson:Point",
-    "Polygon": "geojson:Polygon",
-    "bbox": {
-      "@container": "@list",
-      "@id": "geojson:bbox"
-    },
     "coordinates": "geojson:coordinates",
-    "description": "http://purl.org/dc/terms/description",
-    "features": {
-      "@container": "@set",
-      "@id": "geojson:features"
-    },
     "geometry": "geojson:geometry",
     "id": "@id",
     "properties": "geojson:properties",
@@ -62,30 +64,55 @@ Pasting the following GeoJSON-LD document
 ```
 
 into the [JSON-LD Playground](http://json-ld.org/playground/) form yields
-the following compacted JSON-LD.
+the following JSON-LD in expanded form.
 
 ```json
-{
-  "@id": "http://example.com/features/1",
-  "@type": "http://geojson.org/vocab#Feature",
-  "http://geojson.org/vocab#geometry": {
-    "@type": "http://geojson.org/vocab#Point",
-    "http://geojson.org/vocab#coordinates": [
-      0,
-      0
+[
+  {
+    "http://geojson.org/vocab#geometry": [
+      {
+        "http://geojson.org/vocab#coordinates": [
+          {
+            "@value": 0
+          },
+          {
+            "@value": 0
+          }
+        ],
+        "@type": [
+          "http://geojson.org/vocab#Point"
+        ]
+      }
+    ],
+    "@id": "http://example.com/features/1",
+    "http://geojson.org/vocab#properties": [
+      {
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "A fictional island in the Gulf of Guinea"
+          }
+        ],
+        "http://purl.org/dc/terms/title": [
+          {
+            "@value": "Null Island"
+          }
+        ]
+      }
+    ],
+    "@type": [
+      "http://geojson.org/vocab#Feature"
     ]
-  },
-  "http://geojson.org/vocab#properties": {
-    "http://purl.org/dc/terms/description": "A fictional island in the Gulf of Guinea",
-    "http://purl.org/dc/terms/title": "Null Island"
   }
-}
+]
 ```
 
 ## Outstanding issues
 
 Nested GeoJSON coordinate arrays are incompatible with the processing model
 of JSON-LD 1.0. There are no current best practices for addressing this issue.
+Applications that process GeoJSON as JSON-LD using the GeoJSON-LD 1.0 context
+must take extra steps not defined here to ensure that geometric coordinates
+are processed appropriately.
 
 ## See Also
 
