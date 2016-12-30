@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Proposed GeoJSON-LD Vocabulary
-redirect_from: "/geojson-ld/vocab.html"
 ---
 
 # Proposed GeoJSON-LD Vocabulary
