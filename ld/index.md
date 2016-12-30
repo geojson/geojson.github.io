@@ -1,5 +1,9 @@
-geojson-ld
-==========
+---
+layout: home
+title: GeoJSON-LD
+---
+
+# GeoJSON-LD
 
 This document is also published at http://geojson.org/geojson-ld.
 
