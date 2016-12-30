@@ -1,3 +1,5 @@
 name: GeoJSON
 pygments: true
 markdown: rdiscount
+gems:
+  - jekyll-redirect-from
