@@ -1,6 +1,6 @@
 ---
 layout:  nav
-title:   GeoJSON Specification
+title:   Obsolete
 ---
 <!-- NAV -->
 <nav id="nav">
@@ -37,8 +37,8 @@ title:   GeoJSON Specification
 * [Appendix B\. Contributors](#appendix-b-contributors)
 </nav>
 
-# The GeoJSON Format Specification
-  
+# This document is obsolete.  Please see [RFC 7946](https://tools.ietf.org/html/rfc7946) instead.
+
 <!-- Document Info -->
 <table class="docinfo">
   <tr>
