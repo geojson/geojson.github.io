@@ -4,12 +4,12 @@ This repository hosts the static resources for the http://geojson.org/ website. 
 
 ## Development Setup
 
-Static resources are transformed with [Jekyll](http://jekyllrb.com/).
+Static resources are transformed with [Jekyll](http://jekyllrb.com/).  Any pages with the `.md` extension are rendered as `.html` with [kramdown](https://kramdown.gettalong.org/).
 
-Any pages with the `.md` extension are rendered as `.html` with [rdiscount](https://github.com/davidfstr/rdiscount) (Jekyll's default Markdown parser [doesn't do nested lists](https://github.com/bhollis/maruku/issues/55)).  In addition to installing `jekyll`, you'll want to install `rdiscount` for Markdown parsing and `rouge` for syntax highlighting.
+All of the dependencies are included with the [`github-pages` gem](https://github.com/github/pages-gem).  With Ruby 2 (use [`rbenv`](https://github.com/rbenv/rbenv)) and Bundler > v1.14 installed (`gem install bundler`), install the remaining dependencies locally with this:
 
-    gem install jekyll rdiscount rouge
+    bundle install
 
-After installing Jekyll, run the following in the root of the repository to start the development server.
+With the dependencies installed, run the following in the root of the repository to start the development server:
 
-    jekyll serve --watch --safe
+    jekyll serve --safe --incremental
